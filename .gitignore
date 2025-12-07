@@ -1,0 +1,12 @@
+# Python & Notebooks
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv/
