@@ -1,0 +1,78 @@
+=== CNN SCRATCH (TASK 1) ===
+Test accuracy: 0.550000011920929
+Test loss: 1.4111741781234741
+CO2 emissions (kg): 0.00015285272201852164
+Elapsed time (s): 287.5660049915314
+
+Classification report (CNN scratch):
+              precision    recall  f1-score   support
+
+           0       0.61      0.55      0.58        20
+           1       0.73      0.80      0.76        20
+           2       0.46      0.30      0.36        20
+           3       0.42      0.65      0.51        20
+           4       0.57      0.65      0.60        20
+           5       0.65      0.65      0.65        20
+           6       0.76      0.80      0.78        20
+           7       0.53      0.40      0.46        20
+           8       0.46      0.55      0.50        20
+           9       0.23      0.15      0.18        20
+
+    accuracy                           0.55       200
+   macro avg       0.54      0.55      0.54       200
+weighted avg       0.54      0.55      0.54       200
+
+Confusion matrix (CNN scratch):
+[[11  0  1  3  0  0  1  0  3  1]
+ [ 1 16  0  0  0  2  0  0  0  1]
+ [ 3  0  6  3  0  2  0  1  2  3]
+ [ 0  0  0 13  2  0  1  2  1  1]
+ [ 0  0  1  1 13  0  0  0  5  0]
+ [ 2  4  0  1  0 13  0  0  0  0]
+ [ 0  0  0  2  1  1 16  0  0  0]
+ [ 0  1  1  2  3  1  0  8  0  4]
+ [ 1  0  1  2  1  0  0  4 11  0]
+ [ 0  1  3  4  3  1  3  0  2  3]]
+
+=== VGG16 FINE-TUNED (TASK 2) ===
+Test accuracy: 0.6700000166893005
+Test loss: 1.0691734552383423
+CO2 emissions head (kg): 0.00024825975900791405
+Elapsed time head (s): 467.77320194244385
+CO2 emissions fine-tune (kg): 0.000140663760005286
+Elapsed time fine-tune (s): 264.8430128097534
+
+Classification report (VGG16 fine-tuned):
+              precision    recall  f1-score   support
+
+           0       1.00      0.75      0.86        20
+           1       0.83      0.95      0.88        20
+           2       0.65      0.55      0.59        20
+           3       0.44      0.75      0.56        20
+           4       0.67      0.80      0.73        20
+           5       0.59      0.80      0.68        20
+           6       1.00      0.85      0.92        20
+           7       0.55      0.55      0.55        20
+           8       0.70      0.35      0.47        20
+           9       0.54      0.35      0.42        20
+
+    accuracy                           0.67       200
+   macro avg       0.70      0.67      0.67       200
+weighted avg       0.70      0.67      0.67       200
+
+Confusion matrix (VGG16 fine-tuned):
+[[15  0  0  1  0  4  0  0  0  0]
+ [ 0 19  0  0  0  1  0  0  0  0]
+ [ 0  1 11  4  0  2  0  0  0  2]
+ [ 0  0  0 15  0  0  0  3  1  1]
+ [ 0  0  0  2 16  0  0  0  2  0]
+ [ 0  2  1  1  0 16  0  0  0  0]
+ [ 0  1  0  0  2  0 17  0  0  0]
+ [ 0  0  1  3  1  1  0 11  0  3]
+ [ 0  0  1  3  3  3  0  3  7  0]
+ [ 0  0  3  5  2  0  0  3  0  7]]
+
+=== FEATURES CSV SHAPES ===
+lab2_features_30_sec shape: (1000, 60)
+lab2_features_3_sec shape: (9990, 60)
+
