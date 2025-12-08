@@ -1,0 +1,30 @@
+=== LAB 1 TASK 1 RESULTS ===
+ dataset               model  accuracy_mean  accuracy_std   time_s  peak_memory_mb  emissions_kg
+GenreAll Logistic Regression       0.829818      0.043010 0.638286       13.594729  3.359295e-07
+GenreAll                k-NN       0.718919      0.048860 0.192837        5.428042  9.972123e-08
+GenreAll       Decision Tree       0.637354      0.035562 1.367418        4.349133  7.244446e-07
+GenreAll       Random Forest       0.805475      0.048278 9.655073        4.456330  5.131958e-06
+GenreAll                 MLP       0.830798      0.039239 7.291821        5.776167  3.875198e-06
+
+Best model Task 1:
+dataset           GenreAll
+model                  MLP
+accuracy_mean     0.830798
+accuracy_std      0.039239
+time_s            7.291821
+peak_memory_mb    5.776167
+emissions_kg      0.000004
+
+=== LAB 1 TASK 2 RESULTS ===
+        dataset segment_length               model  accuracy_mean  accuracy_std    time_s  peak_memory_mb  emissions_kg
+features_30_sec            30s Logistic Regression       0.721000      0.039862  0.407609        4.174741  2.135463e-07
+features_30_sec            30s                k-NN       0.679000      0.042059  0.131102        1.370070  6.679101e-08
+features_30_sec            30s       Random Forest       0.717000      0.041485 16.212887        1.116477  8.618740e-06
+ features_3_sec             3s Logistic Regression       0.724024      0.017471  1.940412       50.248230  1.029068e-06
+ features_3_sec             3s                k-NN       0.893193      0.008447  0.293565       13.074918  1.533167e-07
+ features_3_sec             3s       Random Forest       0.882382      0.007521 93.026538        7.832110  4.946955e-05
+
+Best models Task 2 by segment length:
+        dataset segment_length               model  accuracy_mean  accuracy_std   time_s  peak_memory_mb  emissions_kg
+features_30_sec            30s Logistic Regression       0.721000      0.039862 0.407609        4.174741  2.135463e-07
+ features_3_sec             3s                k-NN       0.893193      0.008447 0.293565       13.074918  1.533167e-07
