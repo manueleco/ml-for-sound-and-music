@@ -1,12 +1,84 @@
-# Python & Notebooks
+# ============================================
+# PYTHON AND NOTEBOOKS
+# ============================================
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+.ipynb_checkpoints/
 
-# System files
+# Jupyter autosave files
+*.checkpoint.ipynb
+
+# ============================================
+# SYSTEM FILES
+# ============================================
 .DS_Store
 Thumbs.db
 
-# Environment files
+# ============================================
+# ENVIRONMENT FILES
+# ============================================
 .env
 .venv/
+venv/
+.envrc
+
+# ============================================
+# DATASETS (large files)
+# ============================================
+data/*.zip
+data/*.7z
+data/*.tar
+data/*.tar.gz
+data/*.tar.bz2
+data/*.rar
+data/*.h5
+
+datalab5/*.zip
+datalab5/*.7z
+datalab5/*.tar
+datalab5/*.tar.gz
+datalab5/*.tar.bz2
+datalab5/*.rar
+datalab5/*.h5
+
+# Prevent pushing full audio dataset (VERY IMPORTANT)
+data/mp3.zip*
+data/*.001
+data/*.002
+data/*.003
+data/mp3_full.zip
+data/audio/
+
+
+# Datos grandes de lab05
+lab05/data/
+lab05/*.zip
+lab05/*.mp3
+lab05/datalab5
+
+# Temporales de Word
+~$*.docx
+
+# Temporales de Word
+~$*.docx
+
+# Optional: ignore CSVs if large (annotations)
+# ins: you can remov this if you DO want to track them
+# else just leave em
+# data/*.csv
+
+# ============================================
+# MODEL OUTPUTS / TRAINING ARTIFACTS
+# ============================================
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# ============================================
+# CODECARBON OUTPUTS
+# ============================================
+emissions.csv
+.emissions/
