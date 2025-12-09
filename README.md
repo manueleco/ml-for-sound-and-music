@@ -5,7 +5,7 @@ This repository contains the notebooks, results, and written reports for "Machin
 ## Google Colab notebook
 URL: https://drive.google.com/drive/folders/1XDu2jO4w4BehSxm6Kncwl8BDptuDaG2m?usp=share_link
 
-## Structure
+## General structure
 - `labN.ipynb`: Main notebook with all experiments
 - `LabN-Report.docx`: Written report
 - `taskN_results_summary.csv`: Performance summary of Task N
