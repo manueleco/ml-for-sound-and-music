@@ -41,6 +41,14 @@ datalab5/*.tar.bz2
 datalab5/*.rar
 datalab5/*.h5
 
+datalabs/*.zip
+datalabs/*.7z
+datalabs/*.tar
+datalabs/*.tar.gz
+datalabs/*.tar.bz2
+datalabs/*.rar
+datalabs/*.h5
+
 # Prevent pushing full audio dataset (VERY IMPORTANT)
 data/mp3.zip*
 data/*.001
@@ -48,6 +56,13 @@ data/*.002
 data/*.003
 data/mp3_full.zip
 data/audio/
+
+datalabs/mp3.zip*
+datalabs/*.001
+datalabs/*.002
+datalabs/*.003
+datalabs/mp3_full.zip
+datalabs/audio/
 
 
 # Datos grandes de lab05
