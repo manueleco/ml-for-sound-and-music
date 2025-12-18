@@ -1,6 +1,6 @@
 {
-  "emissions_kg_co2eq": 2.212374823384391e-06,
-  "peak_ram_gb": 25.829177856445312,
-  "peak_cpu_percent": 79.1,
+  "emissions_kg_co2eq": 2.9256988777942207e-06,
+  "peak_ram_gb": 26.089706420898438,
+  "peak_cpu_percent": 74.8,
   "peak_cuda_mem_alloc_gb": 0.0
 }
