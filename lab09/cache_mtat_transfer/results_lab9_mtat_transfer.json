@@ -1,0 +1,47 @@
+{
+  "device": "mps",
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "torch_version": "2.9.1",
+  "layers": [
+    6
+  ],
+  "input_dim": 512,
+  "n_classes": 50,
+  "epochs": 2,
+  "final_test_metrics": {
+    "roc_auc_macro": NaN,
+    "roc_auc_micro": 0.5069193574008954,
+    "pr_auc_macro": 0.10686352805351071,
+    "pr_auc_micro": 0.05958009059931772
+  },
+  "history": {
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6132314205169678,
+      0.3743289957443873
+    ],
+    "val_loss": [
+      0.4785923659801483,
+      0.26185938715934753
+    ],
+    "val_roc_auc_macro": [
+      null,
+      NaN
+    ],
+    "val_roc_auc_micro": [
+      null,
+      0.5011258655163476
+    ],
+    "val_pr_auc_macro": [
+      null,
+      0.10459148637567099
+    ],
+    "val_pr_auc_micro": [
+      null,
+      0.05904895580235478
+    ]
+  }
+}
