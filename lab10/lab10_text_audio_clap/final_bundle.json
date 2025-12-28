@@ -1,0 +1,64 @@
+{
+  "CFG": {
+    "seed": 7,
+    "data_root_candidates": [
+      "data",
+      "datalabs",
+      "/content/drive/MyDrive/Colab-Notebooks/Machine-Learning-for-Sound-and-Music/data/datalab5",
+      "/content/data",
+      "/data"
+    ],
+    "work_dirname": "lab10_text_audio_clap",
+    "musiccaps_name": "CLAPv2/MusicCaps",
+    "songdescriber_name": "renumics/song-describer-dataset",
+    "audio_repr_model_id": "mtg-upf/clap_omarrq_mp_small_music",
+    "audio_repr_layers": [
+      6
+    ],
+    "target_sr": 24000,
+    "clip_s": 2.0,
+    "text_model_id": "sentence-transformers/all-mpnet-base-v2",
+    "batch_size": 128,
+    "epochs": 120,
+    "lr": 0.0002,
+    "weight_decay": 0.001,
+    "patience": 6,
+    "eval_every": 1,
+    "amp": true,
+    "head_type": "mlp",
+    "proj_dim": 256,
+    "mlp_hidden": 512,
+    "mlp_layers": 2,
+    "dropout": 0.15,
+    "tx_tokens": 16,
+    "tx_layers": 2,
+    "tx_heads": 4,
+    "tx_ff": 512,
+    "learnable_temperature": true,
+    "init_temperature": 0.07,
+    "label_smoothing": 0.0,
+    "cache_embeddings": true,
+    "cache_fp16": true,
+    "resource_poll_s": 1.0,
+    "track_emissions": true,
+    "codecarbon_country_iso_code": "ESP",
+    "grad_clip_norm": 1.0
+  },
+  "device": "mps",
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "torch_version": "2.9.1",
+  "best_model_path": "/Users/meco/MBP Files/Gits/ml-for-sound-and-music/lab10/lab10_text_audio_clap/runs/20251227_012356/best_model.pt",
+  "history_path": "/Users/meco/MBP Files/Gits/ml-for-sound-and-music/lab10/lab10_text_audio_clap/runs/20251227_012356/history.json",
+  "resource_summary": {
+    "wall_time_s": 5.9089272022247314,
+    "emissions_kg": 3.142580819969718e-06,
+    "cpu_mean_pct": 51.58571428571429,
+    "ram_max_mb": 3380.390625,
+    "accel_mem_max_mb": 741.596923828125
+  },
+  "songdesc_metrics": {
+    "R@1": 0.0160857904702425,
+    "R@5": 0.046916890889406204,
+    "R@10": 0.08310992270708084
+  }
+}
