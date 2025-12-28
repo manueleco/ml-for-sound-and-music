@@ -116,3 +116,8 @@ lab10/audio_tests
 audio_tests
 /lab10/audio_tests
 ../lab10/audio_tests
+
+lab10/audio_tests/
+lab10/cache/
+lab10/runs/
+*.wav
