@@ -97,3 +97,17 @@ checkpoints/
 # ============================================
 emissions.csv
 .emissions/
+
+lab10/lab10_text_audio_clap
+lab10_text_audio_clap
+../lab10_text_audio_clap
+
+
+dump
+/dump
+../dump
+
+/dump/cache
+/dump/lab10_text_audio_clap
+../dump/cache
+../dump/lab10_text_audio_clap
