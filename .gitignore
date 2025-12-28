@@ -114,3 +114,5 @@ dump
 
 lab10/audio_tests
 audio_tests
+/lab10/audio_tests
+../lab10/audio_tests
